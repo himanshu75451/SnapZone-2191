@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SnapZone : Shop Online for Men & Women Clothing, Shoes, Home Decor Items</title>
+    <link rel="icon" href="./Images/SnapZone_Icon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./styles/Men's_Clothing_page.css">
+
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+        * {
+            font-family: "Poppins", sans-serif;
+            font-size: small;
+        }
+    </style>
+    
+</head>
+
+<body>
+    <header>
+        <p>Brand Waali Quality, Bazaar Waali Deal!</p>
+        <div>
+            <a href="#">Impact@Snapzone</a>
+            <a href="#">Gift Cards</a>
+            <a href="#">Help Center</a>
+            <a href="#">Sell On Snapdeal</a>
+            <a href="#">Download App</a>
+        </div>
+    </header>
+    <nav class="navbar">
+        <div>
+            <a href="./index.html"><img src="./Images/SnapZone_white_Transparent.png" alt="error"></a>
+        </div>
+        <div>
+            <input type="text" id="search" placeholder="Search products & brand">
+            <button><i class="fa-solid fa-magnifying-glass"></i>Search</button>
+        </div>
+        <div id="cart">
+            <a href="./cart.html">Cart <img src="./Images/cart logo.png" alt="error"></a>
+            <a href="./sign-in.html"  id="sign-in">Sign In<img src="./Images/user logo.png" alt="error"></a>
+        </div>
+    </nav>
+
+    <!-- ------------------------------------------------------------------------------- -->
+    <div class="Trending">
+        <p><i class="fa-solid fa-arrow-trend-up"></i> Trending searches: </p>
+        <button id="trend">Men's T-Shirts</button>
+        <button id="shirts">Shirts For Men</button>
+        <button id="Jeans">Jeans For Men</button>
+        <button id="Sweatshirt">Sweatshirt For Men</button>
+        <button id="Shoes">Shoes for Men</button>
+        <button id="Sunglasses">Sunglasses</button>
+        <button id="Watchs">Watchs</button>
+    </div>
+    <div id="BOX">
+        <div class="box1">
+            <div id="mid-07">
+                <h3>- Men's Clothing</h3>
+                <ul>
+                    <li>Men's T-Shirts</li>
+                    <li>Shirts For Men</li>
+                    <li>Jeans For Men</li>
+                    <li>Sweatshirt For Men</li>
+                    <li>Shoes for Men</li>
+                    <li>Sunglasses</li>
+                    <li>Watchs</li>
+                </ul>
+                <hr>
+                <div id="ColorSection">
+                    <div id="filterColor">
+                        <h3>Color</h3>
+                        <hr>
+                        <div>
+                            <input type="checkbox" name="AllColor" value="gray">
+                            <p>Gray</p>
+                            <div id="gray"></div>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="AllColor" value="blue">
+                            <p>Blue</p>
+                            <div id="blue"></div>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="AllColor" value="red">
+                            <p>Red</p>
+                            <div id="red"></div>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="AllColor" value="white">
+                            <p>White</p>
+                            <div id="white"></div>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="AllColor" value="black">
+                            <p>Black</p>
+                            <div id="black"></div>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="AllColor" value="green">
+                            <p>Green</p>
+                            <div id="green"></div>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="AllColor" value="pink">
+                            <p>Pink</p>
+                            <div id="pink"></div>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="AllColor" value="golden">
+                            <p>Golden</p>
+                            <div id="Golden"></div>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="AllColor" value="peach">
+                            <p>Peach</p>
+                            <div id="peach"></div>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="AllColor" value="yellow">
+                            <p>Yellow</p>
+                            <div id="yellow"></div>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="AllColor" value="purple">
+                            <p>Purple</p>
+                            <div id="purple"></div>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="AllColor" value="maroon">
+                            <p>Maroon</p>
+                            <div id="maroon"></div>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="AllColor" value="gold">
+                            <p>Gold</p>
+                            <div id="gold"></div>
+                        </div>
+                        <div>
+                            <input type="checkbox" name="AllColor" value="brown">
+                            <p>Brown</p>
+                            <div id="Brown"></div>
+                        </div>
+                    </div>
+                </div><br>
+
+
+                <div class="filterSection">
+                    <div id="filterPrice">
+                        <h3>Price</h3>
+                        <hr>
+                        <div>
+                            <input type="radio" name="PriceValue" value="ZeroToNinetynine" id="one">
+                            <span>Rs. 0 - Rs. 99</span>
+                        </div>
+                        <div>
+                            <input type="radio" name="PriceValue" value="oneHunderedToOneNininetynine" id="two">
+                            <span>Rs. 100 - Rs. 199</span>
+                        </div>
+                        <div>
+                            <input type="radio" name="PriceValue" value="twoHunderedToTowNininetynine" id="three">
+                            <span>Rs. 200 - Rs. 299</span>
+                        </div>
+                        <div>
+                            <input type="radio" name="PriceValue" value="threeHunderedToThreeNininetynine" id="four">
+                            <span>Rs. 300 - Rs. 399</span>
+                        </div>
+                        <div>
+                            <input type="radio" name="PriceValue" value="fourHunderedToFourNininetynine" id="five">
+                            <span>Rs. 400 - Rs. 499</span>
+                        </div>
+                        <div>
+                            <input type="radio" name="PriceValue" value="fiveHunderedToFiveNininetynine" id="six">
+                            <span>Rs. 500 - Rs. 599</span>
+                        </div>
+                        <div>
+                            <input type="radio" name="PriceValue" value="sixHunderedToSixNininetynine" id="seven">
+                            <span>Rs. 600 - Rs. 699</span>
+                        </div>
+                        <div>
+                            <input type="radio" name="PriceValue" value="sevenHunderedToNineNininetynine" id="eight">
+                            <span>Rs. 700 - Rs. 999</span>
+                        </div>
+                        <div>
+                            <input type="radio" name="PriceValue" value="oneThousandAbove" id="nine">
+                            <span> Above &nbsp; - Rs. 1000 </span>
+                        </div>
+                    </div><br>
+                </div>
+
+                <!-- --------------------------------------------------------------------------------- -->
+                <div>
+                    <h4>Product Type</h4>
+                    <p>+</p>
+                </div>
+                <div>
+                    <h4>Size</h4>
+                    <p>+</p>
+                </div>
+                <div>
+                    <h4>Colour</h4>
+                    <p>+</p>
+                </div>
+                <div>
+                    <h4>Brand</h4>
+                    <p>+</p>
+                </div>
+                <div>
+                    <h4>Feature</h4>
+                    <p>+</p>
+                </div>
+                <div>
+                    <h4>Fit</h4>
+                    <p>+</p>
+                </div>
+                <div>
+                    <h4>Material</h4>
+                    <p>+</p>
+                </div>
+                <div>
+                    <h4>Price</h4>
+                    <p>+</p>
+                </div>
+                <div>
+                    <h4>Sale</h4>
+                    <p>+</p>
+                </div>
+                <div>
+                    <h4>Sleeve Length</h4>
+                    <p>+</p>
+                </div>
+                <div>
+                    <h4>Sports League</h4>
+                    <p>+</p>
+                </div>
+                <div>
+                    <h4>Sports Team</h4>
+                    <p>+</p>
+                </div>
+                <div>
+                    <h4>Style</h4>
+                    <p>+</p>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="box2">
+            <div>
+                <h2> Men's Clothing</h2>
+                <form class="searchIcon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input placeholder="Search within category" type="text" id="search2">
+                </form>
+                <div id="filter">
+                    <span>Sort by :</span>
+                    <select name="" id="select-tag">
+                        <option value=""></option>
+                        <option value="Price Low To High">Price Low To High</option>
+                        <option value="Price High To Low">Price High To Low</option>
+                    </select>
+                </div>
+            </div>
+            <hr>
+            <div id="Mens-Data"></div>
+        </div>
+    </div>
+
+    <!-- ---------------------------------------------------------------------- -->
+
+    <footer>
+        <div>
+            <p><a href="./Men's_Clothing_page.html">Men</a> : Shirts for Men / Casual Shirts for Men / Formal Shirts for Men / Hoodies for Men / Cotton Shirts for Men / T Shirts for Men / Polo T shirts / Kurta Pajama for Men / White Shirt / Black Shirt / Lower for Men / Trousers for Men / Jacket for Men / Formal Pants for Men / Tracksuit for Men / Jeans for Men / Kurta Payjama Sets / Kurta for Men / Blazer for Men / Sweater for Men</p>
+            <p><a href="./Women's_Clothing_page.html">Women</a> : Tops for Women / Kurti / Cotton Sarees / Georgette Sarees / Chiffon Sarees / Net Sarees / Dresses for Women / Jumpsuit for Women / Jeans for Women / Salwar Suit / Bra / Jacket for Women / Night Dress for Women / Sweatshirt for Women / Shorts for Women / Readymade Blouse / Dupatta / T Shirt for Women / Shirts for Women / Skirts for Women / Ethnic wear for Women / Western Dresses for Women / Leggings for Women</p>
+            <p><a href="#">Footwear</a> : Men's Footwear / Casual Shoes for Men / Formal Shoes for Men / Loafers for Men / Slippers for Men / Boots for Men / Sandals for Men / Footwear for Women / Heels for Women / Sandals for Women / Shoes for Women / Sandals for Women / Slippers for Women / Boots for Women / Jutti for Women / Sports Shoes for Women</p>
+            <p><a href="#">Home & Kitchen</a> : Wall Painting / Wall Stickers / Dream Catcher / Rangoli Designs / Clock / Wall Clock / Alarm Clock / Diya / Bean Bag / Laptop Table / Study Table / Wall Hanging / Ceiling Lights / Table Lamp / Hanging Lights / LED Bulbs / Torch Light / LED Lights / Flower Vase / Keychain / Rudraksha / Screwdriver</p>
+            <p><a href="#">Watch</a> : Watch For Men / Womens Watches / Smart Watch / Boys Watch / Girls Watch</p>
+            <p><a href="#">Home Furnishing</a> : Bed Sheet / Mosquito Net / Mattress / Curtains / Sofa Cover / Blanket /
+                Pillow / Carpet / Apron / Quilt / Floor Mat / Towel / Pillow Cover</p>
+            <p><a href="#">Electronics</a> : Bluetooth Speakers / Headphones / Earphone / Ceiling Fan / Geysers /
+                Trimmer / Hair Straightner / Hair Dryer / Water Purifier / Mixer Grinder / Gas Stove / Electric Kettle /
+                Computer Mouse / Computer Keyboard / USB & HDMI Cables / Computer Antivirus</p>
+            <p><a href="#">Mobiles Accessories</a> : Mobile Covers / Leather Mobile Covers / Printed Back Covers /
+                Tempered Glass</p>
+            <div id="paragraph">
+                <p>
+                    Snapdeal is India's leading pure-play value Ecommerce platform. Founded in 2010 by Kunal Bahl and
+                    Rohit Bansal, Snapdeal is one of the top four online lifestyle shopping destinations of India.
+                    Snapdeal brings together a wide assortment of good quality and value- priced merchandise on its
+                    platform. Snapdeal's vision is to enable the shoppers of Bharat to experience the joy of living
+                    their aspirations through reliable, value-for-money shopping. With a personalized, multilingual
+                    interface and cutting edge technology, Snapdeal has simplified the shopping experience for its
+                    value-conscious buyers by showcasing the most relevant products- products that are a good functional
+                    fit with their needs and of a quality that lasts- thereby delivering true value to its customers.
+                    With its commitment to high service standards, Snapdeal suppliers operate under a well structured
+                    ecosystem that enables them to offer great quality products at affordable prices. With majority of
+                    the value-seeking, middle-income, price-conscious buyers coming from the non-metros, Snapdeal’s
+                    logistics networks powered by third party logistics cover more than 96% of India’s pin codes
+                    enabling order deliveries to more than 2500 towns and cities and expanding. Further, Snapdeal's
+                    mission is to become India’s value lifestyle omni-channel leader. We are excited about continuing to
+                    build a complete ecosystem around value commerce, where we can serve Bharat consumers wherever they
+                    are on their offline to online shopping journey. Snapdeal is part of the AceVector Group and one of
+                    India’s best-known e-commerce companies with an exclusive focus on the value segment.
+                </p>
+            </div>
+            <div id="copyright1">
+                <p>Copyright © 2021, Snapdeal Limited. All Rights Reserved</p>
+                <p>Made for Bharat ❤️</p>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="./Scripts/Men's_products.js"></script>
+
+</html>

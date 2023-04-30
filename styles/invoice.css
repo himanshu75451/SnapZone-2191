@@ -1,0 +1,230 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    color: white;
+    background-color: #c3043d;
+    justify-content: space-between;
+    padding: 5px 60px;
+    font-size: smaller;
+    line-height: 5px;
+    /* position: fixed;
+    z-index: 99999; */
+}
+header a {
+    text-decoration: none;
+    color: white;
+    margin-left: 15px;
+}
+.navbar {
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    background-color: #d90646;
+    justify-content: space-between;
+    padding: 11px 40px;
+    /* position: fixed;
+    z-index: 99999; */
+}
+.navbar>div {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.navbar > div > a > img {
+    width: 180px;
+}
+#search {
+    height: 34px;
+    border: none;
+    font-size: 13px;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+    padding-left: 20px;
+    padding-right: 300px;
+}
+.navbar button {
+    height: 38px;
+    border: none;
+    color: white;
+    font-size: 13px;
+    background-color: black;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    padding: 0px 30px;
+    align-items: center;
+}
+.navbar button i {
+    font-size: 12px;
+    margin-right: 2px;
+}
+#cart {
+    gap: 30px;
+}
+#cart>a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+}
+#cart > a > img{
+    width: 35px;
+}
+#contanier {
+    border: 1px solid #d90646;
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 5%;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+table {
+    width: 100%;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 8px;
+}
+#billBar {
+    display: flex;
+    width: 100%;
+}
+.image {
+    width: 30%;
+    background-color: #d90646;
+}
+#contanier > p, h3, h4{
+    padding: 3px;
+    margin: -0px;
+}
+
+footer{
+    width: 100%;
+    margin: auto;
+    box-sizing: border-box;
+    padding-top: 50px;
+    padding: 50px 50px 0px 50px;
+    background-color: #faf5f5f8;
+    border-top: 1px solid rgb(207, 202, 202);
+    font-size: small;
+}
+footer > div > p{
+    margin-top: -15px;
+}
+footer > div > p > a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+footer > div > p > a:hover{
+    text-decoration: underline;
+    color: #c3043d;
+}
+#paragraph{
+    text-align: justify;
+}
+#copyright1{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* nav baar */
+@media screen and (max-width: 1050px) {
+    #search {
+        font-size: 13px;
+        padding-left: 20px;
+        padding-right: 150px;
+    }
+    .navbar button {
+        padding: 0px 20px;
+    }
+    #Sweatshirt, #Sunglasses {
+        display: none;
+    }
+    .Trending {
+        gap: 10px;
+    }
+    #Mens-Data {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    #filterPrice > div {
+        padding-left: 0px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    #search {
+        font-size: 13px;
+        padding-left: 10px;
+        padding-right: 0px;
+    }
+    .navbar button {
+        padding: 0px 10px;
+    }
+    header a:nth-child(1), header a:nth-child(2), #Shoes {
+        display: none;
+    }
+    #Mens-Data {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .filterSection {
+        font-weight: 100;
+        color: #000;
+    }
+}
+
+@media screen and (max-width: 635px) {
+    #contanier {
+        width: 90%
+    }
+    header {
+        justify-content: center;
+    }
+    .navbar > div > a > img {
+        width: 150px;
+    }
+    #search, #Jeans, #Watchs, header a, .navbar button, #paragraph, #copyright1{
+        display: none;
+    }
+    #Mens-Data {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    #filter {
+        display: none;
+    }
+    .box1 {
+        /* width: 45%; */
+        padding: 0px 10px;
+    }
+    #filterColor>div {
+        padding-left: 0px;
+    }
+    input[type=radio] {
+        border: 10px;
+        width: 7%;
+        height: 2em;
+    }
+    #filterPrice span {
+        width: 100%;
+        margin-left: 2px;
+    }
+    .filterSection {
+        font-size: small;
+    }
+    h5 {
+        font-size: 10px;
+    }
+}

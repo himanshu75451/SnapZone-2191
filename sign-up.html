@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SnapZone : Shop Online for Men & Women Clothing, Shoes, Home Decor Items</title>
+    <link rel="icon" href="./Images/SnapZone_Icon.png">
+    <link rel="stylesheet" href="./styles/sign-up.css">
+
+    <style>
+         @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+        * {
+            font-family: "Poppins", sans-serif;
+            font-size: small;
+        }
+    </style>
+
+</head>
+<body>
+    <div id="signInModal" class="modal-sign-in">
+        <div class="location-wishlist-bell">
+            <div>
+                <div style="width:20%"><img src="./Images/location.png" alt="location"></div>
+                <div id="content">
+                    <h4 style="font-size:11px">MANAGE YOUR ORDERS</h4>
+                    <p style="font-size:11px; margin-top: -12px;">Track orders, manage cancellations & returns.</p>
+                </div>
+            </div>
+            <div>
+                <div style="width:20%;"> <img src="./Images/wishlist.png" alt="wishlist"></div>
+                <div id="content">
+                    <h4 style="font-size:11px">SHORTLIST ITEMS YOU LOVE</h4>
+                    <p style="font-size:11px ;margin-top: -12px">Keep items you love on a watchlist.</p>
+                </div>
+            </div>
+            <div>
+                <div style="width:20%"><img src="./Images/bell.png" alt="bell"> </div>
+                <div id="content">
+                    <h4 style="font-size:11px">AWESOME OFFERS UPDATES FOR YOU</h4>
+                    <p style="font-size:11px;margin-top: -12px"> Be first to know about great offers and save.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal-content-sign-in">
+            <header style="font-size:18 px"> <b>Login/Sign Up On SnapZone</b></header>
+            <p style="font-size:11px">Please provide your Mobile Number or Email to Login/ Sign Up on Snapdeal</p>
+
+            <input type="text" id="name" placeholder="Enter your name">
+            <input type="email" id="email" placeholder="Enter your email ">
+            <input type="number" id="mobile-number" placeholder="Enter your mobile number">
+            <input type="email" id="password" placeholder="Enter your password">
+            <input type="email" id="confirm" placeholder="confirm your password">
+            <button id="create-account">Register</button>
+            <p style="margin:auto; padding-left:10%">Already have an account <a href="./sign-in.html">Login</a> </p>
+        </div>
+    </div>
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h3 id="warning">some Text</h3>
+        </div>
+    </div>
+</body>
+<script src="./Scripts/sign-up.js"></script>
+
+</html>

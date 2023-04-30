@@ -1,0 +1,171 @@
+body {
+    background-color: #FAFAFA;
+}
+p{
+    color: 78909C;
+}
+.modal-sign-in {
+    width: 45%;
+    height: 270px;
+    margin: auto;
+    margin-top: 10%;
+    padding: 4%;
+    padding-top: 4%;
+    padding-bottom: 2%;
+    background-color: #EDF1F4;
+    border-radius: 5px;
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.modal-content-sign-in {
+    width: 50%;
+    height: 340px;
+    margin-top: -12%;
+    background-color: #fefefe;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.sign_up_content input {
+    width: 90%;
+    height: 25px;
+    padding-left: 15px;
+    /* font-size: 11px; */
+    border: 1px solid gray;
+}
+.signIn_image {
+    width: 100%;
+}
+#create-account {
+    width: 98%;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 20px;
+    border: none;
+    background-color: #E40046;
+    color: white;
+    margin-bottom: 7%;
+}
+.location-wishlist-bell {
+    width: 45%;
+    margin-right: 5%;
+}
+#signInModal > div > div > div > img{
+    width: 100%;
+    padding-top: 20%;
+}
+.location-wishlist-bell > div{
+    display: flex;
+    margin-bottom: 10%;
+}
+#content {
+    margin-left: 3%;
+    width: 80%;
+}
+#google {
+    width: 100%;
+    border: 1px solid green;
+    text-align: center;
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+.sign_up_content {
+    width: 40%;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.modal-content-sign-in input {
+    width: 90%;
+    height: 25px;
+    padding-left: 15px;
+    border: 1px solid gray;
+    font-size: 11px;
+    margin-bottom: 3%;
+    border: 1px solid gray;
+}
+.modal-content-sign-in > p > a:hover{
+    font-weight: bold;
+}
+
+
+/* <!- Modal -->  */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.modal-content:hover {
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+/* Modal Content */
+.modal-content{
+    background-color: #fefefe;
+    margin: auto;
+    margin-top: 5%;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 20%;
+    color: #FF1744;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+/* Media query medium screen */
+@media screen and (max-width:740px) {
+    .modal-sign-in {
+        width: 60%;
+        height: 300px;
+    }
+}
+
+/* Media query medium screen */
+@media screen and (max-width:500px) {
+    .location-wishlist-bell {
+        display: none;
+    }
+    .modal-content-sign-in {
+        width: 100%;
+        padding-bottom: 5%;
+    }
+    #create-account {
+        height: 20px;
+        font-size: 15px;
+    }
+    p {
+        font-size: 11px;
+    }
+    .modal-content-sign-in input {
+        width: 90%;
+        height: 20px;
+        font-size: 11px;
+        margin-bottom: 2%;
+    }
+}
